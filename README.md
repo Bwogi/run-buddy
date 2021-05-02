@@ -10,19 +10,19 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h3 align="center">Code Refactor Challenge</h3>
+  <h3 align="center">Run Buddy Project</h3>
 
   <p align="center">
     *
     <br />
-    <a href="https://github.com/Bwogi/01-HTML-Git-CSS-Challenge-2"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Bwogi/run-buddy"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://bwogi.github.io/01-HTML-Git-CSS-Challenge-2/">View Demo</a>
+    <a href="https://bwogi.github.io/run-buddy/">View Demo</a>
     ·
-    <a href="https://github.com/Bwogi/01-HTML-Git-CSS-Challenge-2/issues>Report Bug</a>
+    <a href="https://github.com/Bwogi/run-buddy/issues>Report Bug</a>
     ·
-    <a href="https://github.com/Bwogi/01-HTML-Git-CSS-Challenge-2/issues">Request Feature</a>
+    <a href="https://github.com/Bwogi/run-buddy/issues">Request Feature</a>
   </p>
 </p>
 
