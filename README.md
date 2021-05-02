@@ -53,26 +53,14 @@
 
 ### Mockup
 
-<img src="./assets/images/challenge_2_snapshot.png" alt="screenshot" width="500" >
+<img src="./assets/images/run-buddy_screenshot.png" alt="screenshot" width="500" >
 
 
 ### User Story
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+
 
 ### Acceptance Criteria
-* GIVEN a webpage meets accessibility standards
-* WHEN I view the source code
-** THEN I find semantic HTML elements
-* WHEN I view the structure of the HTML elements
-** THEN I find that the elements follow a logical structure independent of styling and positioning
-* WHEN I view the image elements
-** THEN I find accessible alt attributes
-* WHEN I view the heading attributes
-** THEN they fall in sequential order
-* WHEN I view the title element
-** THEN I find a concise, descriptive title
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -99,21 +87,21 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Andrew Bwogi - [@andrewbwogi](https://twitter.com/andrewbwogi) - andrew.bwogi@gmail.com
 
-Project Link: [https://github.com/Bwogi/01-HTML-Git-CSS-Challenge-2](https://github.com/Bwogi/01-HTML-Git-CSS-Challenge-2)
+Project Link: [https://github.com/Bwogi/run-buddy](https://github.com/Bwogi/run-buddy)
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/Bwogi/01-HTML-Git-CSS-Challenge-2/graphs/contributors
+[contributors-url]: https://github.com/Bwogi/run-buddy/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/Bwogi/01-HTML-Git-CSS-Challenge-2/network/members
+[forks-url]: https://github.com/Bwogi/run-buddy/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/Bwogi/01-HTML-Git-CSS-Challenge-2/stargazers
+[stars-url]: https://github.com/Bwogi/run-buddy/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/Bwogi/01-HTML-Git-CSS-Challenge-2/issues
+[issues-url]: https://github.com/Bwogi/run-buddy/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/Bwogi/01-HTML-Git-CSS-Challenge-2/blob/main/LICENSE.txt
+[license-url]: https://github.com/Bwogi/run-buddy/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/andrew-bwogi-6796bb5/
