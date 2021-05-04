@@ -1,7 +1,7 @@
-# Run Buddy
+# Run Buddy, Inc
 
 ## Purpose
-A website that offers fitness training services.
+A website that offers fitness training services. 
 
 ## Built With
 * HTML
@@ -9,8 +9,8 @@ A website that offers fitness training services.
 
 ## Website
 https://bwogi.github.io/run-buddy/
-
+    
 ## Contribution
-Made with ❤️ by [Andrew Bwogi]('https://www.facebook.com/andrew.bwogi')
+Made with ❤️ by [Andrew Bwogi]
 
-# Run Buddy Inc.
+### ©️2021 Run Buddy, Inc 
