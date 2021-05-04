@@ -12,3 +12,5 @@ https://bwogi.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by [Andrew Bwogi]('https://www.facebook.com/andrew.bwogi')
+
+# Run Buddy Inc.
