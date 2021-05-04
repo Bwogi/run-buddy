@@ -11,4 +11,4 @@ A website that offers fitness training services.
 https://bwogi.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by [Andrew Bwogi]
+Made with ❤️ by [Andrew Bwogi]**Github**
