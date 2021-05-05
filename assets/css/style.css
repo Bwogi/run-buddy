@@ -88,6 +88,25 @@ footer a {
     position: relative;
 }
 
+.hero-text {
+    width: 500px;
+    padding: 50px;
+    text-align: right;
+    margin-left: 250px;
+}
+
+.hero-text h1 {
+    color: #fce138;
+    font-size: 3em;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+}
+
+.hero-text p {
+    color: #fff;
+    line-height: 1.2;
+}
+
 
 /* Hero Style End */
 
