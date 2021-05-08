@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -10,14 +10,30 @@ body {
 }
 
 
-/* header section css */
+/* HEADER / NAV BAR STYLES START */
 
 header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px 35px;
-    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #fce138;
+}
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+header nav {
+    margin: 7px 0;
 }
 
 header nav ul {
@@ -28,50 +44,62 @@ header nav ul {
     list-style: none;
 }
 
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    /* margin: 0; */
-}
-
-header a {
-    text-decoration: none;
-    color: #fce138;
-}
-
-header nav {
-    /* float: right; */
-    margin: 7px 0;
-}
-
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
 
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-}
+
+/* HEADER / NAVBAR STYLES END */
 
 
-/* end of header section css  */
+/* FOOTER STYLES START */
 
-
-/* jumbotron/ hero css */
-
-.hero {
+footer {
+    background: #fce138;
+    padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
+}
+
+footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+
+
+/* END FOOTER STYLES */
+
+
+/* STYLE ALL SECTION TAGS */
+
+section {
     padding: 60px;
-    background-image: url("../images/hero-bg.jpeg");
+}
+
+
+/* HERO STYLES START */
+
+.hero {
+    background-image: url('../images/hero-bg.jpeg');
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-cta {
@@ -89,17 +117,12 @@ header h1 {
     color: #fce138;
 }
 
-.hero-cta p {
-    color: #fff;
-    line-height: 1.2;
-}
-
 .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 40%;
     color: #024e76;
+    width: 40%;
     margin: 3.5%;
 }
 
@@ -112,18 +135,6 @@ header h1 {
     margin: 5px 0 15px 0;
 }
 
-.hero-form label {
-    margin: 0 5px;
-}
-
-.hero-form button {
-    background-color: #024e76;
-    color: #fce138;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-}
-
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -134,42 +145,76 @@ header h1 {
     margin-bottom: 15px;
 }
 
-
-/* End of jumbotron/hero css */
-
-
-/* what we do section  */
-
-.intro {
-    /* text-align: center; */
+.hero-form label {
+    margin: 0 5px;
 }
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+/* HERO STYLES END */
+
+
+/* SECTION TITLE STYLES START */
+
+.section-title {
+    font-size: 55px;
+    border-bottom: 3px solid;
+    color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+
+/* SECTION TITLE STYLES END */
+
+
+/* WHAT WE DO STYLES */
 
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
-    font-size: 20px;
-    /* common tactic for centering a block element with a width of less than 100%: */
     margin: 0 auto;
+    font-size: 20px;
     text-align: center;
 }
 
 
-/* end of what we do section  */
+/* WHAT YOU DO STYLES END */
 
 
-/* what you do section   */
+/* WHAT YOU DO STYLES START */
+
+.steps {
+    background: #fce138;
+}
 
 .step {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 80%;
-    background: #fce138;
     margin: 50px auto;
     padding-bottom: 50px;
+    width: 80%;
     border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .step h3 {
@@ -210,13 +255,12 @@ header h1 {
 }
 
 
-/* end of what you do section  */
+/* WHAT YOU DO STYLES END */
 
 
-/* meet the trainers section css  */
+/* MEET THE TRAINERS START */
 
 .trainers {
-    display: flex;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -232,7 +276,7 @@ header h1 {
 }
 
 .trainer img {
-    width: 100%%;
+    width: 100%;
 }
 
 .trainer-bio {
@@ -255,31 +299,28 @@ header h1 {
 }
 
 
-/* end of meet the trainers section css  */
+/* TRAINER STYLES END */
 
 
-/* reachout section css  */
+/* REACH OUT STYLES START */
 
 .contact {
-    /* text-align: center; */
     background: #024e76;
+}
+
+.contact h2 {
+    color: #fce138;
 }
 
 .contact-info {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
 }
 
 .contact-info>* {
     flex: 1;
     margin: 15px;
-}
-
-.contact h2 {
-    color: #fce138;
 }
 
 .contact-info iframe {
@@ -303,23 +344,11 @@ header h1 {
     font-style: normal;
 }
 
-.contact-info a {
-    color: #fce138;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-
-/* .contact-info>* {
-    flex: 1;
-} */
-
 .contact-form input,
 .contact-form textarea {
-    display: block;
     border: 1px solid #024e76;
-    padding-bottom: 7px 15px;
+    display: block;
+    padding: 7px 15px;
     font-size: 16px;
     color: #024e76;
     width: 100%;
@@ -337,69 +366,15 @@ header h1 {
     font-size: 16px;
 }
 
-
-/* end of reachout section css  */
-
-
-/* footer section css  */
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-footer h2 {
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
+.contact-info a {
+    color: #fce138;
 }
 
 
-/* end of footer section css  */
+/* REACH OUT STYLES END */
 
 
-/* utilities */
-
-section {
-    padding: 20px;
-}
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    padding-bottom: 20px;
-    text-align: center;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-.float-left {
-    float: left;
-}
+/* UTILITIES */
 
 .text-left {
     text-align: left;
@@ -412,6 +387,3 @@ section {
 .flex-row {
     display: flex;
 }
-
-
-/* end of utilities   */
