@@ -10,7 +10,7 @@ body {
 }
 
 
-/* HEADER / NAV BAR STYLES START */
+/* header section  */
 
 header {
     padding: 20px 35px;
@@ -51,10 +51,10 @@ header nav ul li a {
 }
 
 
-/* HEADER / NAVBAR STYLES END */
+/* header section end  */
 
 
-/* FOOTER STYLES START */
+/* footer section  */
 
 footer {
     background: #fce138;
@@ -81,17 +81,10 @@ footer a {
 }
 
 
-/* END FOOTER STYLES */
+/* footer section end  */
 
 
-/* STYLE ALL SECTION TAGS */
-
-section {
-    padding: 60px;
-}
-
-
-/* HERO STYLES START */
+/* jumbotron or hero section  */
 
 .hero {
     background-image: url('../images/hero-bg.jpeg');
@@ -158,34 +151,10 @@ section {
 }
 
 
-/* HERO STYLES END */
+/* jumbotron or hero section end  */
 
 
-/* SECTION TITLE STYLES START */
-
-.section-title {
-    font-size: 55px;
-    border-bottom: 3px solid;
-    color: #024e76;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-
-/* SECTION TITLE STYLES END */
-
-
-/* WHAT WE DO STYLES */
+/* what we do section  */
 
 .intro p {
     line-height: 1.7;
@@ -197,10 +166,10 @@ section {
 }
 
 
-/* WHAT YOU DO STYLES END */
+/* end of what we do section  */
 
 
-/* WHAT YOU DO STYLES START */
+/* what you do section  */
 
 .steps {
     background: #fce138;
@@ -255,10 +224,10 @@ section {
 }
 
 
-/* WHAT YOU DO STYLES END */
+/* end of what you do section  */
 
 
-/* MEET THE TRAINERS START */
+/* meet the trainers section */
 
 .trainers {
     width: 100%;
@@ -299,10 +268,10 @@ section {
 }
 
 
-/* TRAINER STYLES END */
+/* end of meet the trainers section  */
 
 
-/* REACH OUT STYLES START */
+/* reach out section  */
 
 .contact {
     background: #024e76;
@@ -371,10 +340,32 @@ section {
 }
 
 
-/* REACH OUT STYLES END */
+/* end of reach out section  */
 
 
-/* UTILITIES */
+/* utilities  */
+
+section {
+    padding: 60px;
+}
+
+.section-title {
+    font-size: 55px;
+    border-bottom: 3px solid;
+    color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
 
 .text-left {
     text-align: left;
@@ -387,3 +378,6 @@ section {
 .flex-row {
     display: flex;
 }
+
+
+/* utilities end  */
