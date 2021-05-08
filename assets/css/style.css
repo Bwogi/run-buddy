@@ -225,12 +225,10 @@ header h1 {
 }
 
 .trainer {
-    /* width: 900px; */
     margin: 20px;
     flex: 1;
     background: #024e76;
     color: #fce138;
-    /* overflow: auto; */
 }
 
 .trainer img {
